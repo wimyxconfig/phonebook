@@ -1,0 +1,3 @@
+profile,Server,User,Password,Mount,Description,Protocol,Encoder,Mode,Bitrate,Global RTP/UDP,Upload 64 max,Send Password,Filter on Password,Extra jitter buffer,Comp mode,Comp Codec,Comp bitrate,QOS,Flow,Sample-rate,Stream Title,req codec,req bitrate,req channels,req sample-rate,STUN server,Answer mode,Frames,Folder,Locked,Dynamic jitter buffer,Video resolution,Video bitrate,ptime,Secure Seed,Video FF interval,Video Framerate,Pushtotalk,AutoRecord,opus cbr,Stream cloning,ClearMode,
+"Wimyx A",54.83.247.37:5011,,,,"Wimyx_Test_Charlie",rtp,ULCC,stereo,492000,no,no,no,no,250,,MP2,64000,,,48000,"Luci Live",ULCC,64000,mono,48000,,symmetric,1,"",no,600,,2000,,"",500,,no,no,no,no,no,
+
