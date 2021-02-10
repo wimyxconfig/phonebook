@@ -1,0 +1,106 @@
+Profile,Server,User,Password,Mount,Description,Protocol,Encoder,Mode,Bitrate,Frames,Global RTP/UDP,Upload 64 max,Send Password,Filter on Password,Extra jitter buffer,Comp mode,Comp Codec,Comp bitrate,QOS,Flow,Sample-rate,Stream Title,req codec,req bitrate,req channels,req sample-rate,STUN server,Answer mode,Frames,Folder
+Any text,"ip:port
+url:port
+[ipv6]:port","Any text
+Or “Default user” to indicate to use the Default user set in Luci",Any text,Any text,Any text,"Rtp
+udp
+Shoutcast
+Icecast
+NACIP","mp2
+Aac
+Aac-he
+Aac-hev2
+Hq sbr
+G711-a
+G711-u
+G722
+L16
+ULCC
+ULCC-24
+ULCC-S
+Opus Audio
+Opus Voice
+Opus Low Delay","mono
+Stereo","a number in bps or kbps
+Examples: 
+64000
+64
+256
+128000","1
+2
+3
+4","yes
+No","yes
+No","yes
+No","yes
+No","a number in ms
+Examples:
+100
+250
+50","Off
+Mayah
+Prodys","mp2
+Aac
+Aac-he","a number in bps or kbps
+Examples: 
+64000
+64
+256
+128000","Off
+Audio/Video
+Voice","yes
+No","a number in Hz
+Examples:
+48000
+44100
+96000",Any text,"Request codec 
+of return-stream.
+mp2
+Aac
+Aac-he
+Aac-hev2
+Hq sbr
+G711-a
+G711-u
+G722
+L16
+ULCC
+ULCC-24
+ULCC-S
+Opus Audio
+Opus Voice
+Opus Low Delay","Request bitrate 
+of return-stream.
+a number in bps or kbps
+Examples: 
+64000
+64
+256
+128000","Requestmode 
+of return-stream.
+Mono
+Stereo","Request Sample-rate 
+of return-stream.
+a number in Hz
+Examples:
+48000
+44100
+96000","Ip
+url","symmetric
+Force format","1
+2
+3
+4",Any folder name
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Default when field is empty:,"
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"invalid, must be filled in.","invalid, must be filled in.",,,,,rtp,"invalid, must be filled in.",stereo,"invalid, must be filled in.",1,yes,no,no,no,0,off,Aac-he,64000,Off,No,48000,,none,64000,mono,48000,,Force format,1,csv filename
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Remarks:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"All characters of all fields
+are NOT case-sensitive, so 
+upper-case and lower-case 
+Are NOT important",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
